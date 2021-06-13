@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Slab:wght@400;700&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="generator.js" defer type="module"></script>
+  </head>
+  <body>
+    <button>Open modal</button>
+    <!-- <div class="modal active" id="plan-modal">
+      <div class="modal-header">
+        <div class="title">Plan for your perfect evening</div>
+        <button class="close-btn">&times;</button>
+      </div>
+      <div class="movie-modal-body">
+        <div class="section">
+          <h3 class="section-header">Movie</h3>
+          <img class="image" src="https://cdn.pixabay.com/photo/2015/10/31/00/42/paperboat-1014962_960_720.jpg" alt="" />
+          <p class="title">Title</p>
+        </div>
+        <div class="section">
+          <h3 class="section-header">Beverage</h3>
+          <img class="image" src="https://cdn.pixabay.com/photo/2015/10/31/00/42/paperboat-1014962_960_720.jpg" alt="" />
+          <p class="title">Name</p>
+        </div>
+        <div class="section">
+          <h3 class="section-header">Food</h3>
+          <img class="image" src="https://cdn.pixabay.com/photo/2015/10/31/00/42/paperboat-1014962_960_720.jpg" alt="" />
+          <p class="title">Name</p>
+        </div>
+      </div>
+    </div>
+    <div id="overlay" class="active"></div> -->
+
+    <template id="modal-template">
+      <div class="modal active" id="plan-modal">
+        <div class="modal-header">
+          <div class="title">Plan for your perfect evening</div>
+          <button class="close-btn">&times;</button>
+        </div>
+        <div class="movie-modal-body">
+          <div class="section">
+            <h3 class="section-header">Movie</h3>
+            <img data-movie-image class="image" src="" alt="Movie poster" />
+            <p data-movie-title></p>
+          </div>
+          <div class="section">
+            <h3 class="section-header">Beverage</h3>
+            <img data-beverage-image class="image" src="" alt="Beverage" />
+            <p data-beverage-name></p>
+          </div>
+          <div class="section">
+            <h3 class="section-header">Food</h3>
+            <img data-food-image class="image" src="" alt="Food" />
+            <p data-food-name></p>
+          </div>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>

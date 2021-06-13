@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Slab:wght@400;700&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer type="module"></script>
+    <!-- <script src="generator.js" defer type="module"></script> -->
+    <title>Perfect Evening Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>Perfect Evening Generator</header>
+      <div class="selection-container">
+        <label for="mood">Choose your mood...</label>
+        <select data-selection-list>
+          <option disabled selected></option>
+          <option value="Happy">Happy</option>
+          <option value="Sad">Sad</option>
+          <option value="Nostalgic">Nostalgic</option>
+          <option value="Spooky">Spooky</option>
+        </select>
+      </div>
+      <div data-bookmovie-container class="two-options">
+        <button class="select-btn">Book</button>
+        or
+        <button class="select-btn">movie</button>
+        ?
+      </div>
+      <h2 data-generate-btn data-modal-target="#plan-modal">Generate!</h2>
+    </div>
+    <div class="modal" id="info-modal">
+      <div class="modal-header">
+        <div class="title">How does it work?</div>
+        <button data-close-button class="close-btn">&times;</button>
+      </div>
+      <div class="info-modal-body">
+        Not sure how to spend evening at home? Not in the mood for parties
+        outside? Netflix has too many options to pick out from? No worries - our
+        Perfect Evening Generator is the thing you need. Just choose the mood
+        you are currently in (or want to be) and select one of two options -
+        book or movie. We will select the one for you - - along with some food,
+        beverage and music to make you enjoy your evening even more!
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <footer>
+      <button data-modal-target="#info-modal" class="info">How does it work?</button>
+      <p>Copyright &copy; 2021 M. Dmowska</p>
+    </footer>
+    <template id="modal-template">
+      <div data-modal-div class="modal" id="plan-modal">
+        <div class="modal-header">
+          <div class="title">Plan for your perfect evening</div>
+          <button data-close-button class="close-btn">&times;</button>
+        </div>
+        <div class="movie-modal-body">
+          <div class="section">
+            <h3 class="section-header">Movie</h3>
+            <img data-movie-image class="image" src="" alt="Movie poster" />
+            <p data-movie-title></p>
+          </div>
+          <div class="section">
+            <h3 class="section-header">Beverage</h3>
+            <img data-beverage-image class="image" src="" alt="Beverage" />
+            <p data-beverage-name></p>
+          </div>
+          <div class="section">
+            <h3 class="section-header">Food</h3>
+            <img data-food-image class="image" src="" alt="Food" />
+            <p data-food-name></p>
+          </div>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #ff8f1f;
+  font-family: 'Josefin Slab', serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 6rem;
+  color: hsl(196, 65%, 16%);
+  padding-top: 0.5em;
+}
+
+.selection-container {
+  width: 25em;
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+label {
+  font-size: 2rem;
+  color: hsl(340, 12%, 20%);
+  padding: 0.5em;
+  font-weight: 700;
+}
+
+select {
+  border: none;
+  border-radius: 7px;
+  min-width: 50%;
+  font-size: 1.5rem;
+  font-family: 'Josefin Slab', serif;
+  background: hsl(184, 27%, 85%);
+  color: hsl(340, 12%, 20%);
+  padding: 0.5em 1em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.select:focus,
+.select:hover {
+  outline: none;
+  border: none;
+}
+
+option {
+  background: hsl(184, 27%, 90%);
+  color: hsl(340, 12%, 30%);
+}
+
+.two-options {
+  padding: 0 0.5em;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  align-items: center;
+  font-weight: 700;
+}
+
+.select-btn {
+  border:none;
+  background: hsl(196, 65%, 16%);
+  color: hsl(184, 27%, 90%);
+  padding: 2em;
+  margin: 0.75em;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  font-family: 'Josefin Slab', serif;
+}
+
+.select-btn:hover,
+.select-btn:focus {
+  cursor: pointer;
+  font-weight: bold;
+  transform: scale(1.1);
+  transition: 300ms ease-in-out;
+}
+
+.select-btn:active {
+  background: hsl(71, 21%, 84%);
+  color: hsl(196, 65%, 16%);
+  font-weight: bolder;
+}
+
+h2 {
+  padding-top: 0.7em;
+  font-size: 2.5rem;
+}
+
+h2:focus,
+h2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 300ms ease-in-out;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: auto;
+}
+
+footer button {
+  border: none;
+  background: none;
+}
+
+footer button, footer p {
+  padding: 1rem 5rem;
+  font-size: 1.2rem;
+  font-family: 'Josefin Slab', serif;
+}
+
+.info:hover,
+.info:focus {
+  cursor: pointer;
+  font-weight: bold;
+  transition: 300ms ease-in-out;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 300ms ease-in-out;
+  border: 3px solid hsl(196, 65%, 36%);
+  border-radius: 10px;
+  z-index: 10;
+  background: hsl(184, 27%, 95%);
+  width: 600px;
+  max-width: 70%;
+  color: hsl(196, 65%, 6%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 0.5em 1em; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid hsl(196, 65%, 36%);
+}
+
+.modal-header .title {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.modal-header .close-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.info-modal-body {
+  padding: 0.5em 1em; 
+  text-align: justify;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+#plan-modal {
+  width: 900px;
+}
+
+.movie-modal-body {
+  padding: 0.5em 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  padding: 0.5em 0.5em;
+  max-width: 100%;
+  display: block;
+  max-height: 250px;  
+  object-fit: cover;
+}
