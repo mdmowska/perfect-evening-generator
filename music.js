@@ -1,26 +1,26 @@
 export const happyMusic = [
   {
-    title: 'ARETHA FRANKLIN - THE GREAT DIVA CLASSICS',
+    name: 'ARETHA FRANKLIN - THE GREAT DIVA CLASSICS',
     image:
       'https://blog.discogs.com/wp-content/uploads/2020/08/aretha.jpg',
   },
   {
-    title: 'ELTON JOHN - GOODBYE YELLOW BRICK ROAD',
+    name: 'ELTON JOHN - GOODBYE YELLOW BRICK ROAD',
     image:
       'https://blog.discogs.com/wp-content/uploads/2020/08/elton-john.jpg',
   },
   {
-    title: 'INXS - KICKS',
+    name: 'INXS - KICKS',
     image:
       'https://blog.discogs.com/wp-content/uploads/2020/08/inxs.jpg',
   },
   {
-    title: 'MARK RONSON - UPTOWN SPECIAL',
+    name: 'MARK RONSON - UPTOWN SPECIAL',
     image:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/markronson-png-1536871946.png?crop=0.825xw:0.381xh;0.0901xw,0.111xh&resize=768:*',
   },
   {
-    title: 'PHARRELL WILLIAMS - GIRL',
+    name: 'PHARRELL WILLIAMS - GIRL',
     image:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pharell-png-1536871347.png?crop=0.825xw:0.381xh;0.0867xw,0.112xh&resize=768:*',
   },
@@ -29,27 +29,27 @@ export const happyMusic = [
 export const sadMusic = [
 
   {
-    title: 'LEONARD COHEN - SONGS OF LOVE AND HATE',
+    name: 'LEONARD COHEN - SONGS OF LOVE AND HATE',
     image:
       'https://soundblab.com/images/lists/20195kitHs2kfjIULbWl.png',
   },
   {
-    title: 'NICK CAVE & THE BAD SEEDS - THE FIRSTBORN IS DEAD',
+    name: 'NICK CAVE & THE BAD SEEDS - THE FIRSTBORN IS DEAD',
     image:
       'https://soundblabimgs.s3.amazonaws.com/albums6/Firstborn-is-Dead.jpg',
   },
   {
-    title: 'JOY DIVISION - UNKNOWN PLEASURES',
+    name: 'JOY DIVISION - UNKNOWN PLEASURES',
     image:
       'https://soundblab.com/images/lists/2019L3hNQEAyzdYHNKnk.png',
   },
   {
-    title: 'PJ HARVEY - DRY',
+    name: 'PJ HARVEY - DRY',
     image:
       'https://soundblab.com/images/lists/2019ygH3tKbjaPIlrsTn.png',
   },
   {
-    title: 'JAMES BLAKE - JAMES BLAKE',
+    name: 'JAMES BLAKE - JAMES BLAKE',
     image:
       'https://img.discogs.com/bMq1cwr_mLOHKt7pJMGD2SlET6k=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2692196-1329659703.jpeg.jpg',
   },
@@ -57,28 +57,28 @@ export const sadMusic = [
 
 export const nostalgicMusic = [
   {
-    title: 'FRANK SINATRA - IN THE WEE SMALL HOURS',
+    name: 'FRANK SINATRA - IN THE WEE SMALL HOURS',
     image:
       'https://themusicuniverse.com/wp-content/uploads/2018/05/sinatrahours.jpg',
   },
   {
-    title: 'COLDPLAY - VIVA LA VIDA',
+    name: 'COLDPLAY - VIVA LA VIDA',
     image:
       'https://e.snmc.io/i/150/w/5a2805b70a8050f729cfa69e073ae360/7854725',
   },
   {
-    title: 'THE BEATLES - YELLOW SUBMARINE',
+    name: 'THE BEATLES - YELLOW SUBMARINE',
     image:
       'https://e.snmc.io/i/150/w/7888b044bc5cf9baaba7107aaaab760b/2299518',
   },
   {
-    title: 'THE INK SPOTS - 20TH CENTURY MASTERS',
+    name: 'THE INK SPOTS - 20TH CENTURY MASTERS',
     image:
       'https://e.snmc.io/i/150/w/4086453a3d17786d3ba9fe2138c2af38/1504018',
   },
 
   {
-    title: 'SIMON AND GARFUNKEL - BRIDGE OVER TROUBLED WATER',
+    name: 'SIMON AND GARFUNKEL - BRIDGE OVER TROUBLED WATER',
     image:
       'https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Simon_and_Garfunkel%2C_Bridge_over_Troubled_Water_%281970%29.png/220px-Simon_and_Garfunkel%2C_Bridge_over_Troubled_Water_%281970%29.png',
   },
@@ -86,27 +86,27 @@ export const nostalgicMusic = [
 
 export const spookyMusic = [
   {
-    title: 'MICHAEL JACKSON - THRILLER',
+    name: 'MICHAEL JACKSON - THRILLER',
     image:
       'https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png',
   },
   {
-    title: 'PANIC AT THE DISCO - PRAY FOR THE WICKED',
+    name: 'PANIC AT THE DISCO - PRAY FOR THE WICKED',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShTafyBELFOCbGmsQCUptFpZbzloDiVdS4sw&usqp=CAU',
   },
   {
-    title: 'RADIOHEAD - THE KING OF LIMBS',
+    name: 'RADIOHEAD - THE KING OF LIMBS',
     image:
       'https://i2.wp.com/theeviljam.co.uk/jamlog/wp-content/uploads/2011/08/thekingoflimbs.jpg?resize=777%2C437&ssl=1'
   },
   {
-    title: 'DRACULA',
+    name: 'DRACULA',
     image:
       'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387151694l/17245.jpg',
   },
   {
-    title: 'NIRVANA - NEVEWRMIND',
+    name: 'NIRVANA - NEVEWRMIND',
     image:
       'https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/NirvanaNevermindalbumcover.jpg/220px-NirvanaNevermindalbumcover.jpg',
   },

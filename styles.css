@@ -85,7 +85,7 @@ option {
 }
 
 .select-btn {
-  border:none;
+  border: none;
   background: hsl(196, 65%, 16%);
   color: hsl(184, 27%, 90%);
   padding: 2em;
@@ -101,14 +101,12 @@ option {
 }
 
 .select-btn:hover,
-.select-btn:focus {
+.select-btn:focus,
+.select-btn:active {
   cursor: pointer;
   font-weight: bold;
   transform: scale(1.1);
   transition: 300ms ease-in-out;
-}
-
-.select-btn:active {
   background: hsl(71, 21%, 84%);
   color: hsl(196, 65%, 16%);
   font-weight: bolder;
@@ -139,7 +137,8 @@ footer button {
   background: none;
 }
 
-footer button, footer p {
+footer button,
+footer p {
   padding: 1rem 5rem;
   font-size: 1.2rem;
   font-family: 'Josefin Slab', serif;
@@ -176,7 +175,7 @@ footer button, footer p {
 }
 
 .modal-header {
-  padding: 0.5em 1em; 
+  padding: 0.5em 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -198,7 +197,7 @@ footer button, footer p {
 }
 
 .info-modal-body {
-  padding: 0.5em 1em; 
+  padding: 0.5em 1em;
   text-align: justify;
 }
 
@@ -222,7 +221,7 @@ footer button, footer p {
   width: 900px;
 }
 
-.movie-modal-body {
+.plan-modal-body {
   padding: 0.5em 0.5em;
   display: flex;
   flex-direction: row;
@@ -234,12 +233,17 @@ footer button, footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 img {
   padding: 0.5em 0.5em;
   max-width: 100%;
   display: block;
-  max-height: 250px;  
+  max-height: 250px;
   object-fit: cover;
+}
+
+.section p {
+  text-align: center;
 }
